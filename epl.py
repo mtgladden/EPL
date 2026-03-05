@@ -19,7 +19,7 @@ def load_and_transform_data():
 
 team_df = load_and_transform_data()
 
-st.title("Premier League trends")
+st.title("Premier League Trends")
 
 teams_list = sorted(team_df['Team'].unique()) ##must if going to separate for st viz
 col1, col2 = st.columns(2)
